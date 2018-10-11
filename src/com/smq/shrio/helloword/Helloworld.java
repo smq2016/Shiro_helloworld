@@ -33,7 +33,7 @@ public class Helloworld {
 	    session.setAttribute("someKey", "aValue");
 	    String value = (String) session.getAttribute("someKey");
 	    if (value.equals("aValue")) {
-	        log.info("---> Retrieved the correct value! [" + value + "]");
+	        log.info("---> 啦啦啦 Retrieved the correct value! [" + value + "]");
 	    }
 
 	    // 测试当前的用户是否已经被认证. 即是否已经登录. 
